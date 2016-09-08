@@ -15,6 +15,7 @@
 		02E4CB6B1D810EF3003EF600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E4CB691D810EF3003EF600 /* LaunchScreen.storyboard */; };
 		02E4CB761D810EF3003EF600 /* ALAssetsLibraryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E4CB751D810EF3003EF600 /* ALAssetsLibraryDemoTests.m */; };
 		02E4CB811D810EF3003EF600 /* ALAssetsLibraryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E4CB801D810EF3003EF600 /* ALAssetsLibraryDemoUITests.m */; };
+		02E4CB8F1D810F73003EF600 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E4CB8E1D810F73003EF600 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		02E4CB7C1D810EF3003EF600 /* ALAssetsLibraryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALAssetsLibraryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E4CB801D810EF3003EF600 /* ALAssetsLibraryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAssetsLibraryDemoUITests.m; sourceTree = "<group>"; };
 		02E4CB821D810EF3003EF600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E4CB8E1D810F73003EF600 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E4CB8F1D810F73003EF600 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		02E4CB4F1D810EF3003EF600 = {
 			isa = PBXGroup;
 			children = (
+				02E4CB8E1D810F73003EF600 /* AssetsLibrary.framework */,
 				02E4CB5A1D810EF3003EF600 /* ALAssetsLibraryDemo */,
 				02E4CB741D810EF3003EF600 /* ALAssetsLibraryDemoTests */,
 				02E4CB7F1D810EF3003EF600 /* ALAssetsLibraryDemoUITests */,
@@ -414,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALAssetsLibraryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou100.ALAssetsLibraryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALAssetsLibraryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyou100.ALAssetsLibraryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
